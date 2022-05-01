@@ -107,6 +107,45 @@ header{
     background-color: rgb(63, 42, 42);
 }
 
+/*skills*/
+
+.skills{
+    display: flex;
+    margin-top: 150px;
+}
+
+.skills_container{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.skills_btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skills_btn{
+    width: 300px;
+    height: 70px;
+    background-color: #141414;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#skills_info{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(180, 178, 174);
+    color: black;
+    padding: 20px;
+}
+
 @media screen and (max-width:1100px) {
     .main_container{
         display: flex;
@@ -114,19 +153,17 @@ header{
         margin: auto;
         align-items: center;
         row-gap: 40px;
-        width: 100%;
     }
 
     
 
-    @media screen and (max-width:450px) {
+    @media screen and (max-width:600px) {
         .main_container{
             display: flex;
             flex-direction: column;
             margin: auto;
             align-items: center;
             row-gap: 40px;
-            width: 100%;
         }
     
         .main_inf h2{
@@ -136,9 +173,11 @@ header{
         
         .main_inf p{
             width: 350px;
-        }
+        }       
 
-        .main_img{
-            background-size: cover;
+        .main_btn{
+            width: 120px;
+            height: 40px;
         }
 }
+
