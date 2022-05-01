@@ -126,7 +126,7 @@ header{
             margin: auto;
             align-items: center;
             row-gap: 40px;
-            width: 100%;
+            width: fit-content;
         }
     
         .main_inf h2{
